@@ -116,7 +116,7 @@ registerController('ReconController', ['$api', '$scope', '$interval', '$timeout'
         $interval.cancel($scope.checkScanInterval);
         $scope.percent = 0;
         $scope.getConfigurationData(0,"Please wait while we parse the results...");
-        $scope.getConfigurationData(8,'');
+        $scope.getConfigurationData(6,'');
         if (scripted === undefined) {
             $scope.running = false;
         } else if ($scope.continuous) {
